@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #1d2671, #c33764);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+/* Main container */
+.bmi-calculator {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px 35px;
+  border-radius: 12px;
+  width: 320px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+/* Labels above inputs */
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  font-size: 14px;
+  text-align: left;
+}
+
+/* Input fields */
+input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Button styling */
+#calculate-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#calculate-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+/* Result text */
+#result {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
